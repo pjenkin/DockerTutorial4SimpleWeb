@@ -3,6 +3,9 @@
 # Specify a base image
 FROM node:alpine
 
+# 4-44 Working directory specified to avoid risk of over-writing
+WORKDIR /usr/app
+
 # 4-42 Copy over build files to container (from context to current working directory (.) in container root)
 COPY ./ ./
 
