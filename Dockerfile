@@ -1,7 +1,7 @@
 # As per 4-39 diagram
 
 # Specify a base image
-FROM alpine
+FROM node:alpine
 
 # Run some commands to install additional programs - use npm
 RUN npm install
