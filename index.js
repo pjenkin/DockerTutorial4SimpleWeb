@@ -7,7 +7,7 @@ const app = express();
 
 // Send this string as a response to root URL request
 app.get('/', (request, response) => {
-    response.send('Hello there');
+    response.send('Finally: Howdy there');
 });
 
 // Listen on port 8080
